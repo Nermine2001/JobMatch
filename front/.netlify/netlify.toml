@@ -1,0 +1,31 @@
+functionsDirectory = "C:\\Users\\nermine\\StudioProjects\\jobmatch_app\\netlify\\functions"
+functionsDirectoryOrigin = "config"
+plugins = []
+headers = []
+redirects = []
+
+[build]
+publish = "C:\\Users\\nermine\\StudioProjects\\jobmatch_app\\build\\web"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "C:\\Users\\nermine\\StudioProjects\\jobmatch_app"
+command = "flutter build web"
+functions = "C:\\Users\\nermine\\StudioProjects\\jobmatch_app\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
